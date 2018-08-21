@@ -1,0 +1,59 @@
+*{
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu{
+    background-color: #c0392b;
+}
+/* Acessando a UL que esta dentro da classe menu*/
+.menu > div > ul{
+    list-style: none;
+    display: flex;
+}
+.menu > div > ul{
+    padding: 5px;
+
+}
+.menu-link{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.menu-link:hover{
+    text-decoration: underline;
+}
+/* Fim do menu*/
+
+/* Começo do Titulo*/
+.titulo{
+background: linear-gradient(#c0392b, #e74c3c);
+color: #ffffff;
+padding-top: 50px;
+padding-bottom: 10px;
+font-size: 35px;
+text-shadow: 1px 1px 1px #000000cc;
+
+}
+
+.titulo-mod{
+    background: #ffff;
+    border-radius: 5px;
+    color:#c0392b;
+    text-transform: uppercase;
+    padding: 1px;
+    padding-top: 2px;
+    text-shadow: 1px 1px 1px #000000cc;
+    
+
+}
+/* Inicio do Box*/
+.box{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/*Final do Box*/
