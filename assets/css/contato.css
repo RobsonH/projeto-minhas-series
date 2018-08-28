@@ -1,0 +1,76 @@
+*{
+    margin: 0; padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.menu-contato{
+    background-color: #c0392b;
+}
+.menu-contato > div > ul{
+    padding: 5px;
+
+}
+.link{
+    list-style: none;
+    display: flex;
+}
+.menu-link-contato {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.titulo-contato{
+    background: linear-gradient(#c0392b, #e74c3c);
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    text-shadow: 1px 1px 1px #000000cc;
+    }
+
+    .titulo-mod-contato{
+        background: #ffff;
+        border-radius: 5px;
+        color:#c0392b;
+        text-transform: uppercase;
+        padding: 1px;
+        padding-top: 2px;
+        text-shadow: 1px 1px 1px #000000cc;
+    }
+
+.box-contato{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.informacao{
+    padding: 10px;
+}
+.button{
+    background-color: #c0392b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    border: 0;
+    margin: 0 auto;
+    width: 85%;
+}
+.rodape-contato{
+    background-color: #A9A4A4;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 50px
+}
+    
+·texto-rodape{
+    padding-bottom: 7px;
+    }
+.informacao-geral{
+    display: block;
+}
+
+
