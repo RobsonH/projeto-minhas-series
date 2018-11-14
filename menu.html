@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .menu{display: none;}
+
+        @media (min-width: 768px) {
+            .menu{ display: block} 
+            
+        }
+        .menu-items{
+            background: #0984e3;
+            display: flex;
+            flex-direction: column;
+            list-style: none;}
+            @media(min-width: 768px){
+                .menu-items{
+                    flex-direction: row;
+                }
+            }
+        .menu-item{
+            text-decoration: none;
+            
+            color: #fff;
+            padding: 0.5em;
+            display: block;
+        }
+        .menu-item:hover{
+            background: #74b9ff;
+        }
+
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <span class="mostrar-menu">
+            <a href="#" onclick="mostrarMenu()">Menu</a>
+        </span>
+        <nav class="menu">
+            <ul class="menu-items">
+                <li><a href="#" class="menu-item">Inicio</a></li>
+                <li><a href="#" class="menu-item">Sobre</a></li>
+                <li><a href="#" class="menu-item">Contato</a></li>
+            </ul>
+        </nav>
+    </header> 
+    
+        <script>
+            let menuAtivo = false;
+            function mostrarMenu(){
+                if (menuAtivo) {
+                    document.querySelector('.menu').style.dispaly = 'none';
+                    menuAtivo = false;
+                } else {
+                    document.querySelector('.menu').style.dispaly = 'flex';
+                    menuAtivo = true;
+                }
+            }
+
+        </script>
+
+</body>
+</html>
